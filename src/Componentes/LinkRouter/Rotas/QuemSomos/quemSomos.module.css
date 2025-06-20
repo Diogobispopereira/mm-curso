@@ -157,6 +157,9 @@
         }
   }
   @media screen and (max-width: 470px) {
+    .texto{
+        width: 82%;
+    }
     .professoresContainer{
         align-items: center;
     }
@@ -168,5 +171,12 @@
     }
     .quemSomosContainer{
         width: 100%;
+    }
+    figcaption {
+        opacity: 2;
+    }
+    .professores p{
+        width: 96%;
+        margin: 12px 0px;
     }
   }
