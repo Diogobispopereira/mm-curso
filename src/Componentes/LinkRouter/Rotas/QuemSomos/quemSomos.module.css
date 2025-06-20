@@ -158,13 +158,13 @@
   }
   @media screen and (max-width: 470px) {
     .texto{
-        width: 82%;
+        width: 95%;
     }
     .professoresContainer{
         align-items: center;
     }
     .professoresQuadro{
-        width: 82%;
+        width: 95%;
         margin: 0;
         flex-direction: column;
         gap: 12px;
