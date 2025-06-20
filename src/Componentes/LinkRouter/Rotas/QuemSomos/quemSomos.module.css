@@ -153,10 +153,19 @@
             gap: 17px 0px
         }
         .professoresQuadro{
-            width: 90%;
+            width: 94%;
         }
   }
   @media screen and (max-width: 470px) {
+    .professoresContainer{
+        align-items: center;
+    }
+    .professoresQuadro{
+        width: 82%;
+        margin: 0;
+        flex-direction: column;
+        gap: 12px;
+    }
     .quemSomosContainer{
         width: 100%;
     }
