@@ -157,8 +157,14 @@
         }
   }
   @media screen and (max-width: 470px) {
+    .quemSomos{
+        top: 545px;
+    }
     .texto{
         width: 95%;
+    }
+    .texto img{
+        height: auto;
     }
     .professoresContainer{
         align-items: center;
