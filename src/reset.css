@@ -1,0 +1,117 @@
+/* Reset global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Melhora o texto em todos os navegadores */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  color-scheme: light dark;
+}
+
+/* Remove scroll extra e evita zoom em inputs */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-family: inherit;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mídia responsiva por padrão */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remover estilos padrão de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Links limpos */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Formulários consistentes */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* Evita bug em iOS */
+textarea {
+  resize: vertical;
+}
+
+/* Remove estilos padrão de tabelas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Garante elementos ocultos para acessibilidade */
+[hidden] {
+  display: none !important;
+}
+
+:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* Normalize base do heading */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Placeholder mais suave */
+::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+/* Seleção de texto */
+::selection {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo padrão para root React */
+#root {
+  isolation: isolate;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,112 @@
+.banner{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   flex-direction: column;
+   gap: 30px;
+}
+.banner__container{
+   display: flex;
+   gap: 12px;
+}
+.banner img{
+    width: 57%;
+    border-radius: 10px;
+}
+.banner__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 40%;
+}
+.banner__texto p{
+    border-radius: 24px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner strong{
+    color: rgb(198, 0, 0);
+}
+.quadro__amarelo{
+    border: 5px solid rgb(231, 247, 7);
+    color: rgb(148, 158, 14);
+}
+.quadro__azul{
+    border: 5px solid rgb(41, 194, 255);
+    color: rgb(41, 194, 255) ;
+}
+ .quadro__verde{
+    border: 5px solid rgb(27, 255, 27);
+    color: rgb(27, 255, 27);
+}
+.quadro__laranja{
+    border: 5px solid rgb(255, 205, 7);
+    color:rgb(188, 152, 7);
+}
+.banner__Descobrir{
+    text-align: center;
+}
+.banner__Descobrir h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.texto__Descobrir{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 90%;
+    margin: 7px auto; 
+    border: 3px solid rgb(206, 199, 199);
+    border-radius: 12px;
+    box-shadow: 7px 6px 4px 3px rgb(206, 199, 199);
+    padding: 10px;
+}
+.banner__Descobrir ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner__Descobrir li{
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: 500;
+    width: 45%;
+}
+.banner__Descobrir h3{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.banner__Descobrir h3 strong{
+    color: rgb(227, 0, 110);
+}
+@media screen and (max-width: 1006px) {
+    
+    .banner__container{
+        flex-direction: column;
+    }
+    .banner__container img{
+        width: 100%;
+    }
+    .banner__texto{
+        width: 100%;
+    }
+    .texto__Descobrir li{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 745px){
+    .banner__Descobrir ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    }
+    .banner__Descobrir li{
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+}

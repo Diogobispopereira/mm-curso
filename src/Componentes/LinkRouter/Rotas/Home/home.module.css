@@ -1,0 +1,14 @@
+.home{
+    top: 83px;
+    width: 100vw;
+    display: flex;
+    position: relative;
+}
+.home__container{
+    margin: 0px auto;
+    background-color: rgb(244, 245, 245);
+    /* margin-top: 275px; */
+    width:87%;
+    padding: 12px;
+    border-radius: 12px;
+}

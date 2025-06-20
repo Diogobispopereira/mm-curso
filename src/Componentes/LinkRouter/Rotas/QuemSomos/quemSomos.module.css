@@ -1,0 +1,161 @@
+.quemSomos{
+    display: flex;
+    top: 80px;
+    position: relative;
+    
+}
+.quemSomosContainer{
+    
+    display: flex;
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 32px;
+    gap: 12px;
+    box-shadow: 7px 11px 1px 2px #b7b5b5;
+    align-items: center;
+    border-radius: 12px;
+    background:rgb(244, 245, 245);
+    padding: 12px;
+    flex-direction: column;
+}
+.quemSomos section{
+    display: flex;
+    box-shadow: 7px 11px 1px 2px #b7b5b5;
+    
+}
+.texto img{
+    height: 350px;
+    width: 50%;
+}
+.texto{
+        border-radius: 16px;
+        background: #e2e4e738;
+        box-shadow: 6px 9px 2px 1px #b7b5b5;
+        display: flex;
+        gap: 12px;
+        width: 100%;
+        flex-direction: row;
+        padding: 12px;
+      
+}
+.texto p{
+    border-radius: 12px;
+    padding: 10px;
+}
+.textoVermelho{
+    font-size: 21px;
+    font-weight: 600;
+    border: 5px solid rgb(237, 237, 2);
+    color: #f30e0e;
+}
+.textoAzul{
+    font-weight: 500;
+    border: 5px solid rgb(251, 201, 0);
+    color: #0ef3ef;
+    font-size: 18px;
+}
+.professores{
+    text-align: center;
+}
+.professores h2{
+    margin: 12px 0px;
+    font-size: 29px;
+    font-weight: 500;
+    color: darkolivegreen;
+}
+.professoresContainer{
+    display: flex;
+    gap: 9px;
+}
+.professoresQuadro{
+    background-color: #cfd3d3;
+    border-radius: 12px;
+    border: 3px solid #b7b5b5;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: row;
+}
+.professores figure {
+    position: relative;
+    width: 300px;
+    margin: 0;
+  }
+  
+  figure img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  figcaption {
+   
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6); /* Fundo preto com transparência */
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 12px;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  figure:hover figcaption {
+    opacity: 1;
+  }
+  .professores p{
+    color: #f30e0e;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    width: 70%;
+    padding: 0px 9px;
+  }
+  @media screen and (max-width:1200px) {
+       .quemSomosContainer{
+        width: 80%;
+    }
+  }
+  @media screen and (max-width:1160px) {
+       .quemSomosContainer{
+        width: 85%;
+    }
+    .professoresQuadro{
+        width: 48%;
+        margin: 0px auto;
+    }
+    .figure img{
+        width: 50%;
+    }
+    .professores p{
+        font-size: 100%;
+        font-weight: 500;
+        width: 50%;
+    }
+  }
+  @media screen and (max-width: 950px) {
+        .texto{
+            align-items: center;
+            flex-direction: column;
+        }
+        .texto img{
+            width: auto;
+        }
+        .textoVermelho{
+            margin-top: 12px;
+        }
+        .professoresContainer{
+            flex-direction: column;
+            gap: 17px 0px
+        }
+        .professoresQuadro{
+            width: 90%;
+        }
+  }
+  @media screen and (max-width: 460px) {
+
+  }

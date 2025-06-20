@@ -1,0 +1,38 @@
+.curso h2{
+    text-align: center;
+    margin: 18px 0px;
+    color: rgb(255, 10, 10);
+    font-size: 30px;
+    font-weight: 600;
+}
+.curso nav{
+    display: flex;
+    gap: 12px;
+    width: 90%;
+    margin: 0px auto;
+}
+.curso a:hover{
+    color: #ac1313;
+    text-decoration: underline;
+}
+.curso img{
+    width: 100%;
+    height:auto;
+    border-radius: 12px;
+}
+.curso p{
+    color: #ff0000;
+    font-size: 19px;
+    font-weight: 600;
+}
+@media screen and (max-width: 900px) {
+    .curso nav{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .curso nav{
+        flex-direction: column;
+        width: 100%;
+    }
+}

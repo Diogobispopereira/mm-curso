@@ -1,0 +1,28 @@
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+    margin: 0px auto; 
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white; 
+    z-index: 1000; 
+}
+.links img{
+    height: 140px;
+    height: 80px;
+}
+.links nav{
+    display: flex;
+    align-items: center;
+}
+.links ul{
+    display: flex;
+}
+.links li{
+    margin-left: 13px;
+    font-size: 17px;
+    font-weight: 700;
+}
