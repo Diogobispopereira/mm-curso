@@ -7,8 +7,9 @@
 }
 .curso nav{
     display: flex;
-    gap: 12px;
+    gap: 28px;
     width: 90%;
+    justify-content: center;
     margin: 0px auto;
 }
 .curso a:hover{
@@ -17,7 +18,7 @@
 }
 .curso img{
     width: 100%;
-    height:auto;
+    height: 320px;
     border-radius: 12px;
 }
 .curso p{

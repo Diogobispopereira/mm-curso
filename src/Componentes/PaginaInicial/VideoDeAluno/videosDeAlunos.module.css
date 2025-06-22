@@ -1,0 +1,107 @@
+.videosAlunos{
+    display: flex;
+    flex-direction: column;
+}
+.videosAlunos h2,h3, p{
+    text-align: center;
+}
+.videosAlunos h2{
+    font-weight: 500;
+    font-size: 28px;
+    color: #ff0000;
+    margin-top: 23px;
+}
+.videosAlunos p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.videosAlunos h3{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ff0000;
+}
+.videosAlunos section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.videos{
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.videosAlunos iframe{
+    width: 100%;
+}
+.AlunosFalando{
+    width: 25%;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ddd8d8;
+    padding: 0px 0px 9px 0px;
+    border-radius: 0px 0px 12px 12px;
+}
+.AlunosFalando h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.AlunosFalando span{
+    font-size: 18px;
+    font-weight: 400;
+}
+@media screen and (max-Width:1200px) {
+    .AlunosFalando{
+        width: 37%;
+    }
+}
+@media screen and (max-width: 790px){
+    .videosAlunos section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .AlunosFalando{
+        width: 40%;
+    }
+    .videosAlunos h2{
+        font-size: 21px ;
+    }
+    .videosAlunos p{
+        font-size: 17px ;
+    }
+    .videosAlunos span{
+      font-size: 16px;
+    }
+    .AlunosFalando h4{
+    font-size: 18px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .AlunosFalando{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .AlunosFalando{
+        width: 95%;
+    }
+    .videosAlunos h2{
+        font-size: 22px;
+        margin-top: 12px;
+    }
+    .videosAlunos p{
+      font-size: 16px;
+    }
+    .videosAlunos span{
+      font-size: 16px;
+    }
+    .AlunosFalando h4{
+    font-size: 18px;
+    }
+}

@@ -1,5 +1,6 @@
 .home{
-    top: 83px;
+    top: 80px;
+    height: 1200px;
     width: 100vw;
     display: flex;
     position: relative;
@@ -9,6 +10,7 @@
     background-color: rgb(244, 245, 245);
     /* margin-top: 275px; */
     width:87%;
+    height:2510px;
     padding: 12px;
     border-radius: 12px;
 }
