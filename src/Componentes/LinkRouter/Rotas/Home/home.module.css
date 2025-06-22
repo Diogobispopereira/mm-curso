@@ -6,11 +6,10 @@
     position: relative;
 }
 .home__container{
-    margin: 9px auto;
-    background-color: rgb(244, 245, 245);
-    /* margin-top: 275px; */
+    margin: 0px auto;
     width:87%;
     height:2510px;
     padding: 12px;
     border-radius: 12px;
+    margin-top: 21px;
 }
