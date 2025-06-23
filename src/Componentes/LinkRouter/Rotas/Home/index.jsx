@@ -7,6 +7,7 @@ export function Home (){
     return(
         <main className={styled.home}>
           <div className={styled.home__container}>
+  
             <Banner/>
             <Curso/>
             <VideosDeAlunos/>
