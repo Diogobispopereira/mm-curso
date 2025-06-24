@@ -26,3 +26,13 @@
     font-size: 17px;
     font-weight: 700;
 }
+.linkcurso{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 7px 4px;
+    background-color: antiquewhite;
+}
+.linkcurso li{
+    margin-top: 2px ;
+}
