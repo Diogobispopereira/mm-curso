@@ -7,7 +7,8 @@
     margin: 0px auto;
     padding: 12px;
     width: 87%;
-    background-color: rgb(194, 194, 194);
+    box-shadow: 7px 11px 1px 2px #b7b5b5;
+    background:rgb(244, 245, 245);
     border-radius: 12px;
     margin-top: 98px;
 }
