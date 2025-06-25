@@ -36,11 +36,7 @@
     display: flex;
     align-items: center;
 }
-.linkcurso div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 .linkcurso{
     display: flex;
     flex-direction: column;
@@ -50,7 +46,7 @@
     padding: 7px 4px;
     background-color: #ededec;
     border: 1px solid #d7d7d3;
-    border-radius: 12p
+    border-radius: 12px
 }
 .linkcurso li{
     margin-top: 2px ;

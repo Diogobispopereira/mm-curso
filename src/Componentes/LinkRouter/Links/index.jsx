@@ -18,13 +18,13 @@ export function Links() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/quemSomos">Quem Somos</Link></li>
-          <p onClick={alternarMenuCursos}><div className={styled.nome}>Cursos <ArrowDropDownIcon/> </div>{menuCursosAberto  && (
+          <li onClick={alternarMenuCursos}><li className={styled.nome}>Cursos <ArrowDropDownIcon/> </li>{menuCursosAberto  && (
             <ul className={styled.linkcurso}>
               <li><Link to="/inglês">Inglês</Link></li>
               <li><Link to="/espanhol">Espanhol</Link></li>
             </ul>
           )}
-          </p>
+          </li>
           <li><Link to="/contato">Contato</Link></li>
         </ul>
         <Outlet />
