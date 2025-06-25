@@ -3,14 +3,14 @@ import { Cabeicalho } from "../../PaginaInicial/Cabeicalho";
 import styled from "./links.module.css"
 import { useState } from "react";
 
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 export function Links() {
-  const [menu, setMenu] = useState(false);
-  const colocarMouse = () => {
-    setMenu(true);
+  const [menuCursosAberto, setMenuCursosAberto] = useState(false);
+  const alternarMenuCursos = () => {
+    setMenuCursosAberto(!menuCursosAberto);
   };
-  const tirarMouse = () => {
-    setMenu(false);
-  }
+
   return (
     <article className={styled.links}>
       <Cabeicalho />
@@ -18,16 +18,13 @@ export function Links() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/quemSomos">Quem Somos</Link></li>
-          <li
-           onMouseEnter={colocarMouse}
-           onMouseLeave={tirarMouse}
-          >Cursos x{menu && (
+          <p onClick={alternarMenuCursos}><div className={styled.nome}>Cursos <ArrowDropDownIcon/> </div>{menuCursosAberto  && (
             <ul className={styled.linkcurso}>
               <li><Link to="/inglês">Inglês</Link></li>
               <li><Link to="/espanhol">Espanhol</Link></li>
             </ul>
           )}
-          </li>
+          </p>
           <li><Link to="/contato">Contato</Link></li>
         </ul>
         <Outlet />

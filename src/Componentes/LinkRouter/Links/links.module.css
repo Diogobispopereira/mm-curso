@@ -20,18 +20,37 @@
 }
 .links ul{
     display: flex;
+    position: fixed;
+    top: 17px;
+    right: 6px;
 }
 .links li{
     margin-left: 13px;
     font-size: 17px;
     font-weight: 700;
 }
+.nome{
+    margin-left: 13px;
+     font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.linkcurso div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .linkcurso{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 112px;
+    margin-top: 29px;
+    margin-right: 66px;
     padding: 7px 4px;
-    background-color: antiquewhite;
+    background-color: #ededec;
+    border: 1px solid #d7d7d3;
+    border-radius: 12p
 }
 .linkcurso li{
     margin-top: 2px ;
