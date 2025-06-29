@@ -12,15 +12,16 @@ export function Links() {
   };
 
   return (
-    <article className={styled.links}>
+    <header className={styled.links}>
+      <section className={styled.linkCabeicalho}>
       <Cabeicalho />
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/quemSomos">Quem Somos</Link></li>
-          <li onClick={alternarMenuCursos}><li className={styled.nome}>Cursos <ArrowDropDownIcon/> </li>{menuCursosAberto  && (
+          <li onClick={alternarMenuCursos}><p className={styled.nome}>Cursos <ArrowDropDownIcon/> </p>{menuCursosAberto  && (
             <ul className={styled.linkcurso}>
-              <li><Link to="/inglês">Inglês</Link></li>
+              <li><Link to="/ingles">Inglês</Link></li>
               <li><Link to="/espanhol">Espanhol</Link></li>
             </ul>
           )}
@@ -29,6 +30,7 @@ export function Links() {
         </ul>
         <Outlet />
       </nav>
-    </article>
+      </section>
+    </header>
   )
 }

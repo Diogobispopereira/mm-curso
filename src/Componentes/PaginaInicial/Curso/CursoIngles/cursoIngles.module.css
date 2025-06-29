@@ -1,0 +1,88 @@
+.ingles{
+    background-color: red;
+    width: 100vw;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inglesContainer{
+    width: 87%;
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+    background-color: rgb(244, 245, 245);;
+}
+.inglesContainer img{
+    width: 60%;
+}
+.secaoB img{
+    width: 47%;
+}
+.secaoA, .secaoB{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 600;    
+    width: 98%;
+    margin: 0px auto;
+}
+.secaoA{
+    color: orange;
+}
+.secaoB{
+    color: #42df9d;
+    flex-direction: row-reverse;
+}
+.secaoA ul, .secaoB ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.secaoA li, .secaoB li{
+     list-style-type: initial;
+     margin-left: 18px;
+}
+.valores{
+    width: 60%;
+    display: flex;
+    background: rgb(255, 255, 255);
+   margin: 0px auto;
+   margin-bottom: 12px;
+}
+.textovalores{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.textovalores h4{
+    border: 2px solid rgb(100, 116, 100);
+    padding: 3px 12px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color:rgb(222, 153, 25)
+}
+.textovalores p{
+    border: 2px solid  rgb(100, 116, 100);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textovalores h5{
+    font-size: 14px;
+    color:#ff0000;
+    font-weight: 400;
+}
+.textoAzul{
+    color: #02d27f
+}
+.textoVerde{
+    color: #04ea6f
+}

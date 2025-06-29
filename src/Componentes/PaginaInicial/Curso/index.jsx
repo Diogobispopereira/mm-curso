@@ -5,7 +5,7 @@ export function Curso (){
         <article className={styled.curso}>
             <h2>Escolha abaixo seu curso e saiba mais: </h2>
             <nav>
-                <a href="#">
+                <a href="">
                     <img src="./Curso/ingles.jpg" alt="quadro com nomes em inglês" />
                     <p>Inglês</p>
                 </a>

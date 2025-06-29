@@ -1,14 +1,16 @@
 .links{
-    display: flex;
-    justify-content: space-between;
-    width: 98vw;
-    margin: 0px auto; 
-    height: 80px;
     position: fixed;
+    width: 100vw;
     top: 0px;
     left: 0px;
     background-color: white; 
     z-index: 1000; 
+}
+.linkCabeicalho{
+ display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto; 
 }
 .links img{
     height: 140px;
@@ -21,20 +23,27 @@
 .links ul{
     display: flex;
     position: fixed;
-    top: 17px;
-    right: 6px;
+    top: 22px;
+    right: 63px;
 }
 .links li{
     margin-left: 13px;
     font-size: 17px;
     font-weight: 700;
 }
+.links a:hover{
+    color: rgb(9, 128, 0)
+}
+
 .nome{
     margin-left: 13px;
      font-size: 17px;
-    font-weight: 700;
+    font-weight: 600;
     display: flex;
     align-items: center;
+}
+.nome:hover{
+    color: rgb(9, 128, 0)
 }
 
 .linkcurso{
