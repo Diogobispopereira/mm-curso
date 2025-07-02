@@ -16,9 +16,9 @@ export function CursoIngles() {
                 <div className={styles.secaoB}>
                     <img src="./CursoIngles/imagemLivro.jpg" alt="imagem com nomes em inglês" />
                     <ul>
-                        <li>Aulas particulares que se adaptam a sua necessidade,ou seja, aprenda no seu ritmo </li>
-                        <li>Você também pode ter mais de uma aula por semana se desejar e ainda ganhar um desconto</li>
-                        <li>Pagamento por pix(Mensal)</li>
+                        <li>Aulas particulares que se adaptam a sua necessidade,ou seja, aprenda no seu ritmo. </li>
+                        <li>Você também pode ter mais de uma aula por semana se desejar e ainda ganhar um desconto.</li>
+                        <li>Pagamento por pix(Mensal).</li>
                     </ul>
                 </div>
 
