@@ -24,7 +24,7 @@ export function CursoIngles() {
 
                 <div className={styles.valoresIngles}>
                     <div  className={styles.valoresContainer}>
-                        <img src="./CursoIngles/ingles.jpg" alt="nomes em ingles" />
+                        <img src="./CursoIngles/ingles.jpg" alt="nomes em inglês" />
                     <h3>Receba descontos maiores para pagamentos semestral e anual.</h3>
                     <h3>Conheça abaixo os valores para 1 ou 2 aulas semanais:</h3>
                     </div>
