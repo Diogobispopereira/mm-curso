@@ -1,17 +1,19 @@
-.ingles{
+.espanhol {
     width: 100vw;
     margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.ingles h2{
+
+.espanhol h2 {
     font-size: 31px;
     font-weight: 600;
     text-align: center;
     color: #ff0000;
 }
-.inglesContainer{
+
+.espanholContainer {
     width: 87%;
     box-shadow: 7px 11px 1px 2px #b7b5b5;
     border-radius: 12px;
@@ -20,76 +22,94 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 34px;
-    background-color: rgb(244, 245, 245);;
+    background-color: rgb(244, 245, 245);
+    ;
 }
-.inglesContainer img{
+
+.espanholContainer img {
     width: 60%;
 }
-.secaoB img{
+
+.secaoB img {
     width: 47%;
 }
-.secaoA, .secaoB{
+
+.secaoA,
+.secaoB {
     display: flex;
     gap: 12px;
     align-items: center;
     font-size: 21px;
-    font-weight: 600;    
+    font-weight: 600;
     width: 93%;
     margin: 0px auto;
 }
-.secaoA{
+
+.secaoA {
     color: orange;
 }
-.secaoB{
+
+.secaoB {
     color: #42df9d;
     flex-direction: row-reverse;
 }
-.secaoA ul, .secaoB ul{
+
+.secaoA ul,
+.secaoB ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.secaoA li, .secaoB li{
-     list-style-type: initial;
-     margin-left: 18px;
+
+.secaoA li,
+.secaoB li {
+    list-style-type: initial;
+    margin-left: 18px;
 }
-.valoresIngles{
+
+.valoresEspanhol {
     display: flex;
     flex-direction: column;
     gap: 21px;
 }
-.valoresContainer img{
+
+.valoresContainer img {
     height: 427px;
     width: 100%;
     margin: 12px 0px;
 }
-.inglesContainer h3{
+
+.espanholContainer h3 {
     font-size: 28px;
     font-weight: 500;
-    
+
 }
-.valores{
+
+.valores {
     width: 60%;
     display: flex;
     background: rgb(255, 255, 255);
-   margin: 0px auto;
-   margin-bottom: 12px;
+    margin: 0px auto;
+    margin-bottom: 12px;
 }
-.textovalores{
+
+.textovalores {
     display: flex;
     flex-direction: column;
- 
+
 }
-.textovalores h4{
+
+.textovalores h4 {
     border: 2px solid rgb(100, 116, 100);
     padding: 3px 12px;
     font-size: 18px;
     text-align: center;
     font-weight: 600;
-    color:rgb(222, 153, 25)
+    color: rgb(222, 153, 25)
 }
-.textovalores p{
-    border: 2px solid  rgb(100, 116, 100);
+
+.textovalores p {
+    border: 2px solid rgb(100, 116, 100);
     font-size: 18px;
     font-weight: 600;
     text-align: center;
@@ -99,15 +119,18 @@
     flex-direction: column;
     justify-content: center;
 }
-.textovalores h5{
+
+.textovalores h5 {
     font-size: 14px;
-    color:#ff0000;
+    color: #ff0000;
     font-weight: 400;
 }
-.textoAzul{
+
+.textoAzul {
     color: #02d27f
 }
-.textoVerde{
+
+.textoVerde {
     color: #04ea6f
 }
 .botao {
@@ -143,48 +166,61 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 830px){
-    .secaoA, .secaoB{
+@media screen and (max-width: 830px) {
+
+    .secaoA,
+    .secaoB {
         flex-direction: column;
         align-items: center;
     }
-    .valoresContainer img{
-    height: auto ;
+
+    .valoresContainer img {
+        height: auto;
     }
-    .secaoA img, .secaoB img{
+
+    .secaoA img,
+    .secaoB img {
         width: 100%;
         height: auto;
     }
-    .inglesContainer ul{
+
+    .espanholContainer ul {
         width: 75%;
     }
-    .valores{
+
+    .valores {
         width: 80%;
     }
-    .valores h4{
+
+    .valores h4 {
         font-size: 16px;
         height: 80px;
     }
-    .textovalores p{
+
+    .textovalores p {
         height: 80px;
     }
 }
-@media screen and (max-width: 505px){
-    .valores{
+
+@media screen and (max-width: 505px) {
+    .valores {
         width: 97%;
     }
-    .valores h4{
+
+    .valores h4 {
         font-size: 14px;
         height: 80px;
     }
-    .textovalores p{
+
+    .textovalores p {
         font-size: 14px;
         height: 80px;
     }
 }
-@media screen and (max-width: 367px){
 
-    .valores h4{
+@media screen and (max-width: 367px) {
+
+    .valores h4 {
         font-size: 14px;
         height: 88px;
     }

@@ -1,11 +1,12 @@
-import styles from "./cursoIngles.module.css"
-export function CursoIngles() {
+import styles from "./cursoEspanhol.module.css"
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+export function CursoEspanhol() {
     return (
-        <article className={styles.ingles}>
-            <section  className={styles.inglesContainer}>
+        <article className={styles.espanhol}>
+            <section className={styles.espanholContainer}>
                 <h2>Inglês</h2>
                 <div className={styles.secaoA}>
-                    <img src="./CursoIngles/imagemIngles.jpg" alt="imagem com nomes em inglês" />
+                    <img src="./CursoEspanhol/1-espanhol.jpg" alt="imagem com nomes em inglês" />
                     <ul>
                         <li>Aulas 1 por semana por meio do App gratuito GOOGLE MEET</li>
                         <li>(Assista uma aulas grátis )</li>
@@ -14,7 +15,7 @@ export function CursoIngles() {
                     </ul>
                 </div>
                 <div className={styles.secaoB}>
-                    <img src="./CursoIngles/imagemLivro.jpg" alt="imagem com nomes em inglês" />
+                    <img src="./CursoEspanhol/2-espanhol.jpg" alt="imagem com nomes em inglês" />
                     <ul>
                         <li>Aulas particulares que se adaptam a sua necessidade,ou seja, aprenda no seu ritmo. </li>
                         <li>Você também pode ter mais de uma aula por semana se desejar e ainda ganhar um desconto.</li>
@@ -22,27 +23,27 @@ export function CursoIngles() {
                     </ul>
                 </div>
 
-                <div className={styles.valoresIngles}>
-                    <div  className={styles.valoresContainer}>
-                        <img src="./CursoIngles/ingles.jpg" alt="nomes em inglês" />
-                    <h3>Receba descontos maiores para pagamentos semestral e anual.</h3>
-                    <h3>Conheça abaixo os valores para 1 ou 2 aulas semanais:</h3>
+                <div className={styles.valoresEspanhol}>
+                    <div className={styles.valoresContainer}>
+                        <img src="./CursoEspanhol/3-espanhol.jpg" alt="nome: Muchas gracias" />
+                        <h3>Receba um descontos maior para pagamentos semestral.</h3>
+                        <h3>Conheça abaixo os valores para 1 ou 2 aulas semanais:</h3>
                     </div>
                     <div className={styles.valores}>
-                        <div  className={styles.textovalores}>
+                        <div className={styles.textovalores}>
                             <h4> Tipo de Aula</h4>
                             <p className={styles.textoAzul}>grupo</p>
                             <p className={styles.textoVerde}>Particulares</p>
                         </div>
                         <div className={styles.textovalores}>
-                             <h4>1 vez por semana</h4>
-                              <p className={styles.textoAzul}>70,00</p>
+                            <h4>1 vez por semana</h4>
+                            <p className={styles.textoAzul}>70,00</p>
                             <p className={styles.textoVerde}>120,00</p>
                         </div>
                         <div className={styles.textovalores}>
                             <h4>2 vez por semana</h4>
-                             <p className={styles.textoAzul}>120,00 <br/><h5>(15% de desconto)</h5></p>
-                            <p className={styles.textoVerde}>200,00<br/><h5>(17% de desconto)</h5></p>
+                            <p className={styles.textoAzul}>120,00 <br /><h5>(15% de desconto)</h5></p>
+                            <p className={styles.textoVerde}>200,00<br /><h5>(17% de desconto)</h5></p>
                         </div>
                         <div className={styles.textovalores}>
                             <h4>Valor médio por aula</h4>
@@ -54,14 +55,14 @@ export function CursoIngles() {
                 </div>
                 <section className={styles.botao}>
                   
-                  <h5>
-                      Entre em contato agora, conlsulte dias e horários disponíveis e
-                      faça seu orçamento clicando aqui ⬇️
-                  </h5> 
+                    <h5>
+                        Entre em contato agora, conlsulte dias e horários disponíveis e
+                        faça seu orçamento clicando aqui ⬇️
+                    </h5> 
 
-                  <a href="https://wa.me/75982627812?text=Quero%20saber%20mais%20sobre%20o%20o%20curso%20o%20de%20o%20Inglês"
-                   className={styles.botaoWhatsapp}>WhatsApp</a>
-              </section>
+                    <a href="https://wa.me/75982627812?text=Quero%20saber%20mais%20sobre%20o%20curso%20o%20de%20o%20Espanhol"
+                     className={styles.botaoWhatsapp}>WhatsApp</a>
+                </section>
             </section>
         </article>
     )
