@@ -1,0 +1,59 @@
+.contato{
+    width: 100vw;
+}
+.contatoContainer{
+    justify-content: center;
+    height: 550px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 87%;
+    margin: 100px auto 0px auto;
+    background-color: rgb(244,245,245);
+    box-shadow: 7px 11px 1px 2px #b7b5b5;border-radius: 12px;
+}
+
+.contatoContainer h2{
+     color: #ff0000;
+     text-align: center;
+     background-color: aliceblue;
+     border: 3px solid #009dff;
+     border-radius: 12px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 30px;
+     font-weight: 700;
+     padding: 6px 12px;
+     margin-top: 10px;
+}
+.contatoContainer h3{
+    margin-top: 9px;
+    color: chocolate;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contatoContainer p{
+    color: rgb(64, 255, 1);
+     font-size: 24px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.botao{
+    border: 1px solid #ff0000;
+    background-color: #000000;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.contatoContainer h5{
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+    .contatoContainer{
+        padding: 0px 20px ;
+    }
+}

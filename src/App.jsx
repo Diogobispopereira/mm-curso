@@ -5,6 +5,7 @@ import { Links } from './Componentes/LinkRouter/Links'
 import { QuemSomos } from './Componentes/LinkRouter/Rotas/QuemSomos'
 import { CursoIngles } from './Componentes/PaginaInicial/Curso/CursoIngles'
 import { CursoEspanhol } from './Componentes/PaginaInicial/Curso/CursoEspanhol'
+import { Contato } from './Componentes/LinkRouter/Rotas/Contato'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quemSomos" element={<QuemSomos/>} />
+        <Route path="/contato" element={<Contato/>} />
         <Route path="/ingles" element={<CursoIngles/>} />
         <Route path="/Espanhol" element={<CursoEspanhol/>} />
       </Routes>
