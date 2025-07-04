@@ -31,39 +31,38 @@ export function CursoEspanhol() {
                     </div>
                     <div className={styles.valores}>
                         <div className={styles.textovalores}>
-                            <h4> Tipo de Aula</h4>
-                            <p className={styles.textoAzul}>grupo</p>
-                            <p className={styles.textoVerde}>Particulares</p>
+                            <div className={styles.Quadrotexto}> <h4> Tipo de Aula</h4></div>
+                            <div className={styles.Quadrotexto}> <p className={styles.textoAzul}>grupo</p></div>
+                            <div className={styles.Quadrotexto}> <p className={styles.textoVerde}>Particulares</p></div>
                         </div>
                         <div className={styles.textovalores}>
-                            <h4>1 vez por semana</h4>
-                            <p className={styles.textoAzul}>70,00</p>
-                            <p className={styles.textoVerde}>120,00</p>
+                            <div className={styles.Quadrotexto}><h4>1 vez por semana</h4></div>
+                            <div className={styles.Quadrotexto}> <p className={styles.textoAzul}>70,00</p></div>
+                            <div className={styles.Quadrotexto}>  <p className={styles.textoVerde}>120,00</p></div>
                         </div>
                         <div className={styles.textovalores}>
-                            <h4>2 vez por semana</h4>
-                            <p className={styles.textoAzul}>120,00 <br /><h5>(15% de desconto)</h5></p>
-                            <p className={styles.textoVerde}>200,00<br /><h5>(17% de desconto)</h5></p>
+                            <div className={styles.Quadrotexto}> <h4>2 vez por semana</h4></div>
+                            <div className={styles.Quadrotexto}> <p className={styles.textoAzul}>120,00 <br /><h5>(15% de desconto)</h5></p></div>
+                            <div className={styles.Quadrotexto}><p className={styles.textoVerde}>200,00<br /><h5>(17% de desconto)</h5></p></div>
                         </div>
                         <div className={styles.textovalores}>
-                            <h4>Valor médio por aula</h4>
-                            <p className={styles.textoAzul}>15,00</p>
-                            <p className={styles.textoVerde}>27,00</p>
+                            <div className={styles.Quadrotexto}><h4>Valor médio por aula</h4></div>
+                            <div className={styles.Quadrotexto}><p className={styles.textoAzul}>15,00</p></div>
+                            <div className={styles.Quadrotexto}><p className={styles.textoVerde}>27,00</p></div>
                         </div>
-
-                    </div>
                 </div>
-                <section className={styles.botao}>
-                  
-                    <h5>
-                        Entre em contato agora, conlsulte dias e horários disponíveis e
-                        faça seu orçamento clicando aqui ⬇️
-                    </h5> 
+                </div>
+            <section className={styles.botao}>
 
-                    <a href="https://wa.me/75982627812?text=Quero%20saber%20mais%20sobre%20o%20curso%20o%20de%20o%20Espanhol"
-                     className={styles.botaoWhatsapp}>WhatsApp</a>
-                </section>
+                <h5>
+                    Entre em contato agora, conlsulte dias e horários disponíveis e
+                    faça seu orçamento clicando aqui ⬇️
+                </h5>
+
+                <a href="https://wa.me/75982627812?text=Quero%20saber%20mais%20sobre%20o%20curso%20o%20de%20o%20Espanhol"
+                    className={styles.botaoWhatsapp}>WhatsApp</a>
             </section>
-        </article>
+        </section>
+        </article >
     )
 }

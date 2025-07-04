@@ -104,6 +104,9 @@
     color:#ff0000;
     font-weight: 400;
 }
+.Quadrotexto{
+    height: auto;
+}
 .textoAzul{
     color: #02d27f
 }
@@ -142,7 +145,16 @@
     background-color: #1DA851;
     color: #FFFFFF;
 }
-
+@media screen and (max-width: 990px){
+   .textovalores h4{
+    font-size: 16px;
+    height: 70px;
+   }
+   .textovalores p{
+    font-size: 16px;
+    height: 70px;
+   }
+}
 @media screen and (max-width: 830px){
     .secaoA, .secaoB{
         flex-direction: column;
@@ -161,15 +173,10 @@
     .valores{
         width: 80%;
     }
-    .valores h4{
-        font-size: 16px;
-        height: 80px;
-    }
-    .textovalores p{
-        height: 80px;
-    }
+   
 }
-@media screen and (max-width: 505px){
+
+@media screen and (max-width: 586px){
     .valores{
         width: 97%;
     }
@@ -178,14 +185,6 @@
         height: 80px;
     }
     .textovalores p{
-        font-size: 14px;
-        height: 80px;
-    }
-}
-@media screen and (max-width: 367px){
-
-    .valores h4{
-        font-size: 14px;
-        height: 88px;
+        font-size: 14px;  
     }
 }
