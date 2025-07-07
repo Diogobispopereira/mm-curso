@@ -6,6 +6,7 @@ import { QuemSomos } from './Componentes/LinkRouter/Rotas/QuemSomos'
 import { CursoIngles } from './Componentes/PaginaInicial/Curso/CursoIngles'
 import { CursoEspanhol } from './Componentes/PaginaInicial/Curso/CursoEspanhol'
 import { Contato } from './Componentes/LinkRouter/Rotas/Contato'
+import { Rodape } from './Componentes/PaginaInicial/Rodape/rodape'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
         <Route path="/ingles" element={<CursoIngles/>} />
         <Route path="/Espanhol" element={<CursoEspanhol/>} />
       </Routes>
-     
+     <Rodape/>
     </BrowserRouter>
   )
 }
