@@ -4,7 +4,7 @@ export function CursoEspanhol() {
     return (
         <article className={styles.espanhol}>
             <section className={styles.espanholContainer}>
-                <h2>Inglês</h2>
+                <h2>Espanhol</h2>
                 <div className={styles.secaoA}>
                     <img src="./CursoEspanhol/1-espanhol.jpg" alt="imagem com nomes em inglês" />
                     <ul>

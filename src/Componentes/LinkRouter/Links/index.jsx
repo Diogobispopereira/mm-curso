@@ -61,12 +61,11 @@ export function Links() {
     <header className={styled.links}>
       <section className={styled.linkCabeicalho}>
         <Cabeicalho />
-        {/* Botão do menu hamburger, visível apenas em telas pequenas */}
+
         <button className={styled.menuHamburger} onClick={alternarMenuPrincipal}>
           {menuPrincipalAberto ? <CloseIcon /> : <MenuIcon />}
         </button>
 
-        {/* Adicione uma classe condicional para o menu principal */}
         <nav className={`${styled.mainNav} ${menuPrincipalAberto ? styled.menuAberto : ''}`}>
           <ul>
             <li><Link to="/" onClick={() => setMenuPrincipalAberto(false)}>Home</Link></li>
