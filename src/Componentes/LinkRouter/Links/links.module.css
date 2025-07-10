@@ -95,7 +95,7 @@
     padding: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
     .menuHamburger {
         display: block;
     }
