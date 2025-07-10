@@ -139,6 +139,7 @@
         border: none;
         padding-left: 20px;
         width: auto;
+        border-radius: 12px;
         margin-top: 5px;
         background-color: transparent;
     }
