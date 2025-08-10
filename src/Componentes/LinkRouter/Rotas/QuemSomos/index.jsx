@@ -7,7 +7,7 @@ export function QuemSomos() {
                 <div className={style.quemSomosContainer}>
                     <div className={style.texto}>
                         <img src="./QuemSomos/Mulher.jpg" alt="Mulher com os braços para cima " />
-                        <div>
+                        <div className={style.texto}>
                             <p className={style.textoVermelho}>Mas, de onde surgiu o MM Cursos? Quem são seus criadores?</p>
                             <p className={style.textoAzul}>O MM Cursos surgiu em meio a pandemia da Covid-19.
                                 Para aperfeiçoarem seus conhecimentos e prática,
