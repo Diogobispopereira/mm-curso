@@ -34,7 +34,7 @@
     flex-direction: column;
     gap: 13px;
 }
-.videosAlunos iframe{
+iframe{
     width: 100%;
 }
 .AlunosFalando{
@@ -47,6 +47,7 @@
     padding: 0px 0px 9px 0px;
     border-radius: 0px 0px 12px 12px;
 }
+
 .AlunosFalando h4{
     font-size: 24px;
     font-weight: 500;
